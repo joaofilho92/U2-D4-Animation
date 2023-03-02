@@ -1,0 +1,38 @@
+/*
+1 creazione del testo e formattazione di 1 parola da far ruotare
+2 inserimento delle altre 2 parole
+3 sovrapporre le 3 parole
+4 mostrare 1 parola e nascondere le altre 2
+5 animare 1 parola (fadein - fadeout con spostamento)
+6 animare le altre 2 parole
+7 ritardare progressivamente l'animazione delle altre 2 parole 
+*/
+
+
+/* 1 */
+
+main{
+    max-width: 1200px;
+    margin-inline: auto;
+    height: 80vh;
+}
+
+#testoAlternato {
+    width: 500px;
+    height: 100px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+p{
+    margin: 1.5rem;
+}
+
+.parole{
+    transform: rotate(20deg);
+    transform-origin: bottom right;
+}
